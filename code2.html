@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: #0b4c61;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .form {
+            padding: 200px;
+            margin-right: 100px;
+            color: #fff;
+        }
+
+        .border {
+            border: 2px solid black;
+        }
+
+        .form input {
+            padding: 5px;
+            margin-right: 150px;
+            /* padding-left: 200px; */
+        }
+
+        .form img {
+            margin-right: 10px;
+        }
+
+        .btn {
+            width: 70px;
+            height: 35px;
+            padding: 2px 10px;
+            font-size: 1 em;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center" class="form">
+        <form class="border">
+            <h1><u>Registration Form</u></h1><br><br>
+            <img src="data:image/png;base64,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"
+                width="300px" height="200px" align="left">
+            Enter the price of item 1 : <input type="number"><br><br>
+            Enter the price of item 2 : <input type="number"><br><br>
+            Enter the price of item 3 : <input type="number"><br><br>
+            Total : <input type="number"><br><br>
+            <button class="btn">Pay Now</button><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
